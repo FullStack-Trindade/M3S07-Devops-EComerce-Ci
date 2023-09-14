@@ -22,5 +22,5 @@ jobs:
           cache: 'npm'
       - run: npm i
       - run: npm run build 
-      - run: npm teste -- --watchAll=false
+      - run: npm test -- --watchAll=false
     
